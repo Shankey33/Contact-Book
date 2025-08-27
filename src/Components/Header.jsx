@@ -3,7 +3,12 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='header'>
-      <h4>Contact Book</h4>
+      <div className="header-content">
+        <h1 className="header-title">Contact Book</h1>
+        <div className="header-icon">
+          <i className="fa-solid fa-address-book"></i>
+        </div>
+      </div>
     </div>
   )
 }
